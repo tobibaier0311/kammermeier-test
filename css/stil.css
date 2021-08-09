@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'RobotoCondensed';
+    src: url('../webfont/RobotoCondensed-Regular-webfont.woff');
+}
+
+@font-face {
+    font-family: 'RobotoMedium';
+    src: url('../webfont/Roboto-Medium-webfont.woff');
+}
+
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('../webfont/Roboto-Bold-webfont.woff');
+}
+
+@font-face {
+    font-family: 'RobotoLight';
+    src: url("/webfont/Roboto-Light-webfont.woff");
+}
+
+.startsite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+    
+   
+}
+.Hälfte{
+    flex-direction: column;
+    padding: 50px;
+    margin-top: 15vh;
+    border-left: 1px slategrey;
+}
+
+.Hälfte img{
+    width: 35vw;
+    transition: transform .2s;
+}
+
+.Hälfte img:hover{
+    transform: scale(1.04);
+}
+
+p{
+    font-size: 2rem;
+    letter-spacing: 0.05rem;
+    text-align: center;
+    color: #555f69;
+    padding: 10px 10px;
+    font-family: RobotoLight;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
