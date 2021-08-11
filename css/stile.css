@@ -1,0 +1,44 @@
+
+.top{
+    width: 100vw;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    
+}
+
+.logo {
+    text-align: center;
+    transition: transform .2s;
+    transition: opacity 500ms linear 0s;
+    animation: transitionIn 3s;
+}
+
+.bild {
+    width: 25vw;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.menu{
+    position: relative;
+    width:340px;
+    height: 283px;
+
+}
+
+.menu img{
+    opacity: 0.3;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
