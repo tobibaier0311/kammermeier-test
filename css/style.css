@@ -77,7 +77,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    border: 8px solid #55aa55;
+    border: 6px solid #55aa55;
     background-color: rgb(241, 241, 241);
 }
 
