@@ -45,3 +45,4 @@ gsap.to('.text2', {
     scrollTrigger: '.text2', 
     x: 500
 })
+
