@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+
+
+*{
+    font-family: 'Spartan', sans-serif;
+}
+
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.adressen{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
