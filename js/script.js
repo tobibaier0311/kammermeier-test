@@ -46,3 +46,7 @@ gsap.to('.text2', {
     x: 500
 })
 
+
+$('.logo').on('click', function(e){
+    console.log(this.hash);
+});

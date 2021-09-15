@@ -18,6 +18,9 @@
     src: url("/webfont/Roboto-Light-webfont.woff");
 }
 
+body{
+    overflow:hidden;
+}
 .startsite{
     display: flex;
     justify-content: center;

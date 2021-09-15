@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="de">
   <head>
-    <link rel="stylesheet" href="style.css" type="text/css"> 
+    <link rel="stylesheet" href="bio.css" type="text/css"> 
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -20,9 +20,9 @@
       <div class="main">
         <div class="banner-area">
           <div class="content-area">
-            <div class="logo" id="home">
+            <div class="logocont" id="home">
 
-              <a href="https://www.kammermeier.info/" target="_blank">
+              <a class="logo" href="#section1" >
                 <img class="bild" src="logoskammermeier\LOGONEU.svg" alt="Bio Metzger Kammermeier">
               </a>
 
@@ -38,8 +38,8 @@
         </div>
 
         
-
-        <div class="textvideo">
+        <section>
+        <div class="textvideo" id="section1">
           <article class="text1">
             <h2>Ökologie & Ökonomie im Einklang</h2>
             <p>Der Biobereich der Metzgerei Kammermeier in Hauzenberg steht für Bio-Premium-Fleischqualität aus dem bayerischen Wald. Metzgermeister und staatlich geprüfter Heilpraktiker Hubert Kammermeier arbeitet vertrauensvoll mit seinen Biokreis-Bauern aus der Region zusammen. Der Fleischereibetrieb kann zudem individuell auf Kundenwünsche eingehen und alle Biofleisch- und -wurstwaren - auch verpackt und etikettiert - in jeder Gewichts-Variante anbieten. Bio-Weiderindfleisch, Bio-Schweinefleisch, Bio-Kalbfleisch, Bio-Putenfleisch, Bio-Hähnchenfleisch und Bio-Lammfleisch - von der Schlachtung bis zur Verarbeitung hat er alle Schritte in seiner eigenen Hand.</p>
@@ -69,6 +69,7 @@
           </div>
             
         </div> 
+      </section>
 
         <section class="hinter">
 
@@ -143,18 +144,12 @@ x[i].style.display = "none";
 x[slideIndex-1].style.display = "block";
 } 
 </script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
 <script> src="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css"</script>
-<script>
-function scrollWin() {
-  window.scrollBy(0, 100);
-}
-</script>
-    
-  </body> 
-</html>
+<script src="js\animation.js"></script>
+
     
    
 
