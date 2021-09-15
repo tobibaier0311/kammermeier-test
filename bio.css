@@ -1,8 +1,53 @@
 
 body{
+    font-family: 'Spartan', sans-serif;
+    overflow: hidden;
     padding: 0;
     margin: 0;
 }
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    position: fixed;
+    background-color: white;
+    border: 2px solid #55aa55;
+    font-family: 'Spartan', sans-serif;
+    padding-right: 3vw;
+}
+
+
+
+.navbtn{
+    display: flex;
+    
+    
+}
+
+ul{
+    
+    list-style-type: none;
+}
+
+li{
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+
+
+.navbtn li a{
+    text-decoration: none;   
+}
+
+.navbtn li a:hover{
+    color: #55aa55;
+}
+
+
 
 @import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
 
@@ -44,11 +89,17 @@ body{
 
 
 
-.textvideo{
+.textvideo ~ .bildtext{
     transition: transform .2s;
     transition: opacity 500ms linear 0s;
     animation: transitionIn 3s;
     line-height: 1.7em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5vh;
+    padding-top: 10vh;
+    line-height: 1.7em; 
     
 }
 
@@ -112,15 +163,11 @@ body{
 
 
 .textvideo{
-    width: 98.7vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 5vh;
     margin-bottom: 5vh;
     padding-top: 10vh;
-    /*background-color: #7f7f7f;*/
-    /*border: 4px solid #55aa55;*/
     line-height: 1.7em; 
 }
 
@@ -135,10 +182,9 @@ hr {
     justify-content: space-evenly;
     align-items: center;
     margin-top: 5vh;
-    margin-bottom: 5vh;
-    padding: 5vh;
-    /*background-color: #7f7f7f;*/
-    /*border: 4px solid #55aa55;*/
+    
+    padding-top: 10vh;
+    
     line-height: 1.7em;
     
 
@@ -163,7 +209,6 @@ hr {
     width: 50vw;
     padding-right: 8vw;
     font-family: 'Spartan', sans-serif;
-    /*color: white;*/
 }
 
 .text2 h2{
@@ -174,10 +219,7 @@ hr {
 
  
 .article{
-    width: 400px;
-    
-   
-    
+    width: 450px;
 }
 
 
@@ -191,16 +233,39 @@ p{
 
 .mySlides{
     margin-top: 35px;
-    border:#55aa55 ;
-
 }
 
+.mySlides{
+    border: 6px solid #55aa55;
+    border-radius: 5px;
+}
     
 .article{
     margin-bottom: 20px;
 }
 
+.produktion{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5vh;
+    padding-top: 10vh;
+    line-height: 1.7em;
+}
 
+.text3{
+    font-family: 'Spartan', sans-serif;
+    width: 50vw;
+    padding-right: 8vw;
+    line-height: 1.7em;
+}
+
+
+
+.produktion img{
+    border: 6px solid #55aa55;
+    border-radius: 5px;
+}
 
 
 .footer{
@@ -230,11 +295,21 @@ p{
 }
 
 
+h2{
+    font-family: 'Spartan', sans-serif;
+}
 
+p{
+    font-family: 'Spartan', sans-serif;
+}
 
 
    
 
-
+.w3-content{
+    z-index: -99;
+}
    
-
+.navbar{
+    z-index: 999;
+}
