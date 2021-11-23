@@ -12,19 +12,18 @@ body{
     justify-content: space-between;
     align-items: center;
     width: 100vw;
+    height: 8vh;
     position: fixed;
     background-color: white;
-    border: 2px solid #55aa55;
+    border: 3px solid #55aa55;
     font-family: 'Spartan', sans-serif;
+    font-weight: 400;
+    font-size: medium;
     padding-right: 3vw;
 }
 
-
-
 .navbtn{
     display: flex;
-    
-    
 }
 
 ul{
@@ -37,14 +36,13 @@ li{
     padding-right: 2vw;
 }
 
-
-
 .navbtn li a{
     text-decoration: none;   
 }
 
 .navbtn li a:hover{
     color: #55aa55;
+    transition: all 0.3s ease;
 }
 
 
@@ -120,28 +118,21 @@ li{
     margin-top: 5vh;
     text-align: center;
     text-decoration: none;
-    color: black;
     font-size: 25px;
 }
 
-.fa {
+.fa { /* facebook & instagram links */
 
     font-size: 30px;
     width: 60px;
     text-align: center;
     text-decoration: none;
-    color: white;
-    
-  }
-
-  
+    color: white; 
+}
 
 .bild {
     width: 25vw;
 }
-
-
-
 
 .logocont {
     text-align: center;
@@ -152,6 +143,7 @@ li{
 
 .logocont:hover {
     transform: scale(1.02); 
+    transition: all 0.3s ease;
 }
 
 .btn{
@@ -160,6 +152,7 @@ li{
     border: none;
     cursor: pointer;
 }
+
 
 
 .textvideo{
@@ -171,11 +164,7 @@ li{
     line-height: 1.7em; 
 }
 
-hr {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    }
+
 
 .bildtext{
     display: flex;
@@ -297,6 +286,7 @@ p{
 
 h2{
     font-family: 'Spartan', sans-serif;
+    font-weight: bolder;
 }
 
 p{
