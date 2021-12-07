@@ -307,17 +307,17 @@ p{
 @media (max-width: 576px) {
     .textvideo{
         flex-direction: column;
-        align-content: center;
+        align-content: space-between;
     }
 
     .bildtext{
         flex-direction: column;
-        align-content: center;
+        align-content: space-between;
     }
 
     .produktion{
         flex-direction: column;
-        align-content: center;
+        align-content: space-between;
     }
 
     section{
@@ -331,25 +331,49 @@ p{
     .navbar{
         font-size: small;
     }
+
+    .text1{
+        padding: 0;
+    }
+
+    .text2{
+        padding: 0;
+    }
+
+    .text3{
+        padding: 0;
+    }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1120px) {
     .textvideo{
         flex-direction: column;
-        align-content: center;
+        align-content: space-between;
     }
 
     .bildtext{
         flex-direction: column;
-        align-content: center;
+        align-content: space-between;
     }
 
     .produktion{
         flex-direction: column;
-        align-content: center;
+        align-content: space-between;
     }
 
     section{
         text-align: center;
+    }
+
+    .text1{
+        padding: 0;
+    }
+
+    .text2{
+        padding: 0;
+    }
+
+    .text3{
+        padding: 0;
     }
 }
