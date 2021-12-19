@@ -2,10 +2,14 @@
 
 
 body{
-    font-family: 'Montserrat', sans-serif;
+ font-family: 'Montserrat', sans-serif;
 }
 
-.datenschutz{
+.biokreis{
+    width: 5vw;
+}
+
+.zertifizierung{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,6 +18,11 @@ body{
     padding-right: 20vw;
     text-align: justify;
 }
+
+.regional{
+    width: 5vw;
+}
+
 h1{
     color: #55aa55;
     font-size: xx-large;
@@ -44,8 +53,7 @@ h4{
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 8px 13px;
-    text-decoration: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 8px 13px;;
 }
 
 .button a{

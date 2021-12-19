@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 body{
-    overflow: hidden;
     padding: 0;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -21,7 +20,6 @@ body{
     font-weight: 500;
     font-size: large;
     padding-right: 3vw;
-    box-shadow: black;
 }
 
 .navbtn{
@@ -209,11 +207,12 @@ li{
 h2{
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
+    line-height: 3rem;
 }
-
 p{
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
+    line-height: 2rem;
 }
 
 
@@ -318,4 +317,15 @@ p{
 
 ol{
     padding: 25px;
+}
+
+figcaption{
+    text-align: center;
+}
+
+.beschreibung{
+    position: absolute;
+    top: 10vh;
+    right: 2vw;
+    color: white;
 }
