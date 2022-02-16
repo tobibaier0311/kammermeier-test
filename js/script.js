@@ -1,3 +1,5 @@
+
+
 let bild = document.getElementById('blur');
 let bild2 = document.getElementById('blur2');
 let bild3 = document.getElementById('blur3');
@@ -28,23 +30,10 @@ bild2.addEventListener('mouseleave', imgOut2);
 bild3.addEventListener('mouseenter', imgBlur3);
 bild3.addEventListener('mouseleave', imgOut3);
 
-const modalBtn = document.querySelector(".modal-btn");
-const modal = document.querySelector(".modal-overlay");
-const closeBtn = document.querySelector(".close-btn");
 
-modalBtn.addEventListener("click", function () {
-  modal.classList.add("open-modal");
-});
-closeBtn.addEventListener("click", function () {
-  modal.classList.remove("open-modal");
-});
 
-gsap.registerPlugin(scrollTrigger);
 
-gsap.to('.text2', {
-    scrollTrigger: '.text2', 
-    x: 500
-})
+
 
 
 $('.logo').on('click', function(e){
