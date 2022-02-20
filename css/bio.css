@@ -1,9 +1,11 @@
 body{
     padding: 0;
     margin: 0;
-    
 }
 
+.block{
+    font-size: large;
+}
 
 .navbar{
     display: flex;
@@ -14,7 +16,6 @@ body{
     position: fixed;
     background-color: white;
     border: 3px solid #55aa55;
-    
     font-size: large;
     padding-right: 3vw;
 }
@@ -123,10 +124,12 @@ li{
 
 .text{
     width: 50vw;
+    font-size: large;
 }
 
 .article{
     width: 450px;
+    font-size: large;
 }
 
 .mySlides{
@@ -144,6 +147,7 @@ li{
     
 .article{
     margin-bottom: 20px;
+    font-size: large;
 }
 
 
@@ -217,6 +221,10 @@ p{
 
     .navbar{
         font-size: small;
+    }
+
+    .wurst{
+        width: auto;
     }
 
     .text{
