@@ -136,16 +136,8 @@ u{
 .metzger{
     border: 5px solid rgba(255, 0, 0, 0.753);
     border-radius: 10px;
-    text-align: center;
 }
 
-.background2 {
-    background-image: url("/images/background2.jpg");
-    width: 20vw;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 15px;
-}
 
 .angebote{
     height: 100vh;
@@ -181,8 +173,6 @@ u{
 }
 
 .back{
-    
-
     border: 2px solid red;
     padding: 1.3vh;
 }
@@ -256,13 +246,12 @@ u{
         
     }
 
-    .zentrale{
-        margin-top: 25%;
+    #info2{
+        display: flex;
+        flex-direction: column;
     }
+    
 
-    .metzger{
-        margin-top: 25%;
-    }
 
     .angebote{
         height: auto;
@@ -303,4 +292,42 @@ u{
         padding-top: 10px;
         text-decoration: underline;
     }
+}
+
+@media (min-width: 950px) {
+    
+}.info{
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10vh;
+    height: auto;
+    width: 70vw;
+    
+}
+
+.zentrale{
+    margin-top: 15%;
+}
+
+.metzger{
+    margin-top: 15%;
+}
+
+@media (max-width: 1264px) { 
+    .info{
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10vh;
+    height: auto;
+    width: 80vw;
+    
+}
+
+.zentrale{
+    margin-top: 15%;
+}
+
+.metzger{
+    margin-top: 15%;
+} 
 }
