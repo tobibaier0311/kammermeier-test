@@ -67,7 +67,7 @@ li{
 
 .banner-area{
     height: 100vh;
-    background: url('/css/bg.jpg');
+    background: url('bg.jpg');
     background-size: cover;
 }
 
