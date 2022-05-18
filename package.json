@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/tobibaier0311/kammermeier-test#readme",
   "dependencies": {
-    "bootstrap": "^5.1.3"
+    "bootstrap": "^5.2.0-beta1"
   }
 }
