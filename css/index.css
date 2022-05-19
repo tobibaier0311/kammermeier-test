@@ -2,11 +2,23 @@ body{
     margin: 0px;
     padding: 0px;
     line-height: 1;
+    background-image: url('/bg.jpg');
+    background-size: cover;
 }
-.choose {
+
+
+@media (min-width: 992px) {
+    .choose {
     display: flex;
     justify-content: center;
+    flex-direction: row;
+ }
 }
+
+.bio {
+    padding-top: 2.5vh;
+}
+
 
 .center-container {  
     display: flex;
@@ -32,11 +44,17 @@ body{
     align-items: center;
 }
 
+.col-auto {
+    backdrop-filter: blur(5.9px);
+    -webkit-backdrop-filter: blur(5.9px);
+}
+
 .item{
     justify-content: center;
     align-items: center;
     margin: 1rem;
     border-radius: 5%;
+    background: rgba(255, 255, 255, 0.17);
 }
 
 #btn {
